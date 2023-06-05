@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Me</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Product+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuOYSTWCLgnH8glyVuIe7bt4fT14OsuesJ7c3hRrla4g&usqp=CAU&ec=48600112" alt="p0stbox">
+<p>14 year old tech enthusiast named Patrick. I have alot of aliases but my main is xyqn or p0stbox.</p>
+<p>If you need anything, contact me using email. xyqn@techie.com (holy shit that mail.com?!?!?!)</p>
+<button id="myButton1">My Tech</button>
+<script>
+    $(document).ready(function() {
+      // Create a function to redirect to the specified URL
+      function redirectTo(url) {
+        window.location.href = url;
+      }
+    
+      // Attach an event handler to each button
+      $("#myButton1").click(function() {
+        // Redirect to Google
+        redirectTo("tech.html");
+      });
+    
+      $("#myButton2").click(function() {
+        // Redirect to Facebook
+        redirectTo("https://www.facebook.com");
+      });
+    
+      $("#myButton3").click(function() {
+        // Redirect to Twitter
+        redirectTo("https://www.twitter.com");
+      });
+    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+body {
+    font-family: 'Product Sans', sans-serif;
+    text-align: center;
+  }
+  
+button {
+    font-family: 'Product Sans', sans-serif;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  }
+  
