@@ -1,3 +1,3 @@
 # My website
 My website all about me
-http://xyqn.xyz/
+https://xyqn.xyz/
